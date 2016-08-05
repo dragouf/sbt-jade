@@ -5,10 +5,10 @@ Simple syntax-only jade asset plugin for sbt-web that uses [jade4j][1].
 ## Usage
 
 ```scala
-resolvers += Resolver.url("bintray-tek-sbt-plugins",
-  url("http://dl.bintray.com/tek/sbt-plugins"))(Resolver.ivyStylePatterns)
+resolvers += Resolver.url("bintray-dragouf-sbt-plugins",
+  url("https://dl.bintray.com/dragouf/sbt-plugins/"))(Resolver.ivyStylePatterns)
 
-addSbtPlugin("tryp.sbt" % "sbt-jade" % "0.0.1")
+addSbtPlugin("dragouf.sbt" % "sbt-jade" % "0.0.3")
 ```
 
 jade files in the asset dir will be processed to html in staging.
